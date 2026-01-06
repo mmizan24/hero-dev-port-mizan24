@@ -13,8 +13,6 @@
   
 }
 
-
-
 .logo h2 {
     font-size: 45px;
     color:black;
@@ -26,27 +24,27 @@
     color: #FD6E0A;
   }
 
-  .btn{
+.btn{
      background-color: #FD6E0A;
      border:none;
      padding:18px 35px;
      border-radius: 2px;
      font-size: 20px;
-     font-weight: 900;
+     font-weight: bolder;
      cursor: pointer;
-     color:white;
-
-
-
-
+     color:white
+     
     
-  }
+   } 
   
 
 
 /* Main style*/
 header{
     background-color: #fff8f3;
+    background: url('../images/developer.png') ,url("../images/header_bg.png") ;
+    background-position:  top left, bottom right;
+    background-repeat: no-repeat;
     padding-top: 50px;
 }
 
@@ -72,14 +70,46 @@ nav .menu a{
   text-decoration: none;
 }
 banner-img{
-width: 20%;
-  height: auto;
+width: 300px;
+height: auto;
+
+
 }
 
 #banner{
-  /* border: 1px solid red ; */
-  margin: 47px 38px 0 238px;
+ /* border: 1px solid red ; */
+  margin: 47px 38px 20px 238px; 
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
+#banner .banner-content{
+  max-width: 585px ;
+}
+  #banner .banner-content h2{
+    font-size: 85px;
+    font-weight: bold;
+    color:#181818
+  }
+
+  #banner .banner-content h1{
+
+    font-size: 75px;
+    font-weight: 600;
+    color:#474747;
+    margin-bottom: 5px;
+  }
+
+   #banner .banner-content p{
+    font-size: 18px;
+    color: #757575;
+    line-height: 30px;
+    text-align: justify;
+    margin-bottom: 30px;
+   }
+   #banner .banner-image img{
+    max-width: 585px;
+    vertical-align: right;
+    
+   
+  }
