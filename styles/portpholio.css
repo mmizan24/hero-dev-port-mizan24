@@ -64,8 +64,10 @@
 
 
 header{
-    background-color: lab(81.81% 5.88 11.08);
+    
     background: url('../images/developer.png') ,url("../images/header_bg.png") ;
+    background-color:#FFF8F3;
+    
     background-position:  top left, bottom right;
     background-repeat: no-repeat;
     padding-top: 50px;
@@ -100,12 +102,13 @@ height: auto;
 }
 
 #banner{
- border: 1px solid red ;
+ /* border: 1px solid red ; */
   margin: 47px 38px 0 230px; 
   display: flex;
   justify-content: space-between; 
   align-items: center;
   /* background-color:#FD6E0A; */
+
 }
 #banner .banner-content{
   max-width: 585px ;
